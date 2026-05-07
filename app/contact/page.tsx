@@ -1,4 +1,0 @@
-import PageHero from '@/components/PageHero';
-export const metadata={title:'Contact | GemAtlas.org',description:'Connect with GemAtlas for editorial contributions, corrections, partnerships, or collaboration.'};
-export default function Page(){return <main><PageHero eyebrow="GemAtlas Guide" title="Contact GemAtlas" subtitle="Connect with GemAtlas for editorial contributions, corrections, partnerships, or collaboration."/><article className="max-w-4xl mx-auto px-5 py-14 prose text-lg"><div dangerouslySetInnerHTML={{__html:`
-<h2>Contribute</h2><p>GemAtlas welcomes expert contributions from jewelers, historians, gemologists, designers, manufacturers, and educators.</p><h2>Partnerships</h2><p>Future partnerships may include educational collaborations, responsible sourcing features, and jewelry knowledge projects.</p><h2>Email placeholder</h2><p>Add your preferred contact email here, such as info@gematlas.org, after domain email is configured.</p>`}} /></article></main>}
