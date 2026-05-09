@@ -1,4 +1,0 @@
-import PageHero from '@/components/PageHero';
-export const metadata={title:'About | GemAtlas.org',description:'GemAtlas is an educational project created to make jewelry knowledge easier to explore.'};
-export default function Page(){return <main><PageHero eyebrow="GemAtlas Guide" title="About GemAtlas" subtitle="GemAtlas is an educational project created to make jewelry knowledge easier to explore."/><article className="max-w-4xl mx-auto px-5 py-14 prose text-lg"><div dangerouslySetInnerHTML={{__html:`
-<h2>Mission</h2><p>GemAtlas.org aims to become a trusted, readable, and beautifully organized jewelry knowledge platform.</p><h2>What we cover</h2><p>We cover diamonds, gemstones, history, famous jewels, craftsmanship, buying education, and sourcing basics.</p><h2>Editorial approach</h2><p>Content should be clear, balanced, and useful for both first-time buyers and jewelry professionals.</p>`}} /></article></main>}
