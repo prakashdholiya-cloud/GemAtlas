@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function ArticleGrid({items}:{items:{title:string,desc:string,href:string}[]}){return <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">{items.map(item=><Link href={item.href} key={item.title} className="card p-7 hover:-translate-y-1 transition"><h3 className="text-xl font-black text-forest">{item.title}</h3><p className="mt-3 text-ink/70 leading-7">{item.desc}</p><span className="mt-5 inline-block text-emerald font-bold">Read guide →</span></Link>)}</div>}
